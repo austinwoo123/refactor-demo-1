@@ -55,6 +55,7 @@ header nav ul li {
 }
 /* Header and Header navigation ends here */
 
+/* hero */
 
 .hero {
     height: 800px;
@@ -74,14 +75,15 @@ header nav ul li {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* Section content starts*/
+section.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/*Aside Benefits start here*/
+aside.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,6 +93,7 @@ header nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*Aside Benefits end here*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -106,23 +109,17 @@ header nav ul li {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
+/* fix heading structure and group benefit together */
+.benefit-lead h2
+.benefit-cost h2
+.benefit-brand h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-lead img {
+ 
     display: block;
     margin: 10px auto;
     max-width: 150px;
