@@ -55,7 +55,7 @@ header nav ul li {
 }
 /* Header and Header navigation ends here */
 
-/* hero */
+/*hero*/
 
 .hero {
     height: 800px;
@@ -64,6 +64,43 @@ header nav ul li {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*section starts here*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/*section Articles start here*/
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -75,15 +112,9 @@ header nav ul li {
     float: right;
     margin-left: 25px;
 }
-/* Section content starts*/
-section.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-/*Aside Benefits start here*/
-aside.benefits {
+
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,7 +124,6 @@ aside.benefits {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Aside Benefits end here*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -164,32 +194,6 @@ aside.benefits {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* footer starts here*/
 footer {
     padding: 30px;
